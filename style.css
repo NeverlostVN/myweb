@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2c3e50; /* Màu nền xanh đậm */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5); /* Đổ bóng đậm hơn */
+    max-width: 600px;
+}
+
+h1 {
+    color: #e74c3c; /* Chuyển tiêu đề sang màu đỏ */
+}
+
+h2 {
+    color: #3498db; /* Mã sinh viên màu xanh dương */
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+.avatar-img {
+    width: 150px;           /* Chiều rộng của ảnh là 150px */
+    height: 150px;          /* Chiều cao của ảnh là 150px (để ảnh hình vuông) */
+    border-radius: 50%;     /* Bo tròn ảnh thành hình tròn */
+    object-fit: cover;      /* Giữ cho ảnh không bị méo khi bo tròn */
+    border: 5px solid white; /* Thêm một cái viền trắng xung quanh ảnh */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Đổ bóng nhẹ cho ảnh nổi bật */
+    margin-bottom: 20px;    /* Tạo khoảng cách phía dưới ảnh với dòng chữ chào mừng */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c3e50; /* Hoặc màu cũ của bạn */
+    display: flex;
+    /* DÒNG NÀY SẼ ÉP CÁC KHỐI CHUYỂN XUỐNG DÒNG */
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* Thêm một chút khoảng cách giữa 2 khối */
+    gap: 20px; 
+}
